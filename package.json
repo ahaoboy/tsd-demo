@@ -1,0 +1,21 @@
+{
+  "name": "tsd-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types":"dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsd"
+  },
+  "tsd": {
+    "directory": "test/dts"
+  },
+  "keywords": [],
+  "author": "yanyuhao.joy",
+  "license": "ISC",
+  "dependencies": {
+    "tsd": "^0.19.1",
+    "typescript": "^4.5.5"
+  }
+}
